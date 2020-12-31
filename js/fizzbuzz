@@ -1,0 +1,28 @@
+//multiple of 3 = fizz
+//multiple of 5 = buzz
+//if both are true = fizzbuzz
+
+//functions to make it clean
+function FizzBuzz(number, text) {
+    if (i % number === 0) {
+        output += text
+    } else {}
+}
+//loop to 100
+for (var i = 1; i <= 100; i++) {
+    //resets output
+    var output = "";
+
+    //fizz or buzz
+    FizzBuzz(3, "h");
+    FizzBuzz(5, "hello");
+    
+    //not fizz or buzz? number.
+    if (output == "") {
+        document.write(i)
+        document.write("<br>");
+    } else {
+        document.write(output);
+        document.write("<br>");
+    }
+}
